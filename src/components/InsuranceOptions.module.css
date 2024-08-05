@@ -1,0 +1,17 @@
+.insuranceOptions {
+  width: 100rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 0 var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+@media screen and (max-width: 1325px) {
+  .insuranceOptions {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

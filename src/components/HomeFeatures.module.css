@@ -1,0 +1,748 @@
+.groupIcon,
+.groupIcon1 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon {
+  height: calc(100% - 23.3px);
+  width: 89.01%;
+  top: 0.719rem;
+  right: 7.81%;
+  bottom: 0.738rem;
+  left: 3.17%;
+}
+.groupIcon1 {
+  height: 88.19%;
+  width: 81.46%;
+  top: 4.56%;
+  right: 10.05%;
+  bottom: 7.26%;
+  left: 8.49%;
+  z-index: 1;
+}
+.groupIcon2,
+.groupIcon3 {
+  position: absolute;
+  z-index: 2;
+}
+.groupIcon2 {
+  top: 22.006rem;
+  left: 0;
+  width: 23.463rem;
+  height: 13.638rem;
+}
+.groupIcon3 {
+  top: 22.706rem;
+  left: 36.206rem;
+  width: 16.419rem;
+  height: 11.125rem;
+}
+.groupIcon4 {
+  position: absolute;
+  height: 2.71%;
+  width: 37.93%;
+  top: 97.29%;
+  right: 29.38%;
+  bottom: 0;
+  left: 32.68%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.groupIcon5 {
+  height: 7.96%;
+  width: 7.78%;
+  top: 11.25%;
+  right: 59.45%;
+  bottom: 80.79%;
+  left: 32.77%;
+  z-index: 2;
+}
+.groupIcon5,
+.groupIcon6,
+.groupIcon7,
+.groupIcon8,
+.groupIcon9 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon6 {
+  height: 8.82%;
+  width: 8.22%;
+  top: 10.45%;
+  right: 59.03%;
+  bottom: 80.73%;
+  left: 32.76%;
+  object-fit: contain;
+  z-index: 3;
+}
+.groupIcon7,
+.groupIcon8,
+.groupIcon9 {
+  height: 5.77%;
+  width: 5.13%;
+  top: 15.95%;
+  right: 60.65%;
+  bottom: 78.28%;
+  left: 34.22%;
+  z-index: 4;
+}
+.groupIcon8,
+.groupIcon9 {
+  height: 1.17%;
+  width: 3.67%;
+  top: 92.82%;
+  right: 51.65%;
+  bottom: 6.01%;
+  left: 44.68%;
+  z-index: 1;
+}
+.groupIcon9 {
+  height: 1.11%;
+  width: 3.59%;
+  top: 92.84%;
+  right: 35.13%;
+  bottom: 6.05%;
+  left: 61.28%;
+}
+.groupIcon10,
+.groupIcon11 {
+  position: absolute;
+  top: 35.294rem;
+  left: 31.9rem;
+  width: 2.175rem;
+  height: 2.513rem;
+  z-index: 2;
+}
+.groupIcon11 {
+  top: 35.375rem;
+  left: 23.556rem;
+  width: 1.85rem;
+  height: 2.463rem;
+}
+.groupIcon12,
+.groupIcon13,
+.groupIcon14,
+.groupIcon15,
+.groupIcon16 {
+  position: absolute;
+  height: 5.77%;
+  width: 5.13%;
+  top: 15.95%;
+  right: 60.65%;
+  bottom: 78.28%;
+  left: 34.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 5;
+}
+.groupIcon13,
+.groupIcon14,
+.groupIcon15,
+.groupIcon16 {
+  height: 47.96%;
+  width: 23.47%;
+  top: 41.3%;
+  right: 35.67%;
+  bottom: 10.73%;
+  left: 40.87%;
+  z-index: 3;
+}
+.groupIcon14,
+.groupIcon15,
+.groupIcon16 {
+  height: 30.58%;
+  width: 29.06%;
+  top: 0;
+  right: 28.5%;
+  bottom: 69.42%;
+  left: 42.43%;
+  z-index: 2;
+}
+.groupIcon15,
+.groupIcon16 {
+  height: 45.12%;
+  width: 19.06%;
+  top: 42.61%;
+  right: 36.35%;
+  bottom: 12.26%;
+  left: 44.58%;
+  z-index: 4;
+}
+.groupIcon16 {
+  height: 7.96%;
+  width: 6.97%;
+  top: 10.98%;
+  right: 49.9%;
+  bottom: 81.06%;
+  left: 43.12%;
+  z-index: 3;
+}
+.groupIcon17,
+.groupIcon18,
+.groupIcon19,
+.groupIcon20,
+.groupIcon21 {
+  position: absolute;
+  height: 3.03%;
+  width: 3.06%;
+  top: 14.04%;
+  right: 50.27%;
+  bottom: 82.93%;
+  left: 46.66%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 4;
+}
+.groupIcon18,
+.groupIcon19,
+.groupIcon20,
+.groupIcon21 {
+  height: 15.23%;
+  width: 8.49%;
+  top: 3.37%;
+  right: 46.21%;
+  bottom: 81.4%;
+  left: 45.3%;
+  z-index: 5;
+}
+.groupIcon19,
+.groupIcon20,
+.groupIcon21 {
+  height: 27.37%;
+  width: 10.56%;
+  top: 16.82%;
+  right: 47.45%;
+  bottom: 55.81%;
+  left: 42%;
+  z-index: 6;
+}
+.groupIcon20,
+.groupIcon21 {
+  height: 14.54%;
+  width: 7.48%;
+  top: 3.9%;
+  right: 46.73%;
+  bottom: 81.56%;
+  left: 45.78%;
+  z-index: 7;
+}
+.groupIcon21 {
+  height: 24.89%;
+  width: 4.32%;
+  top: 18.01%;
+  right: 51.53%;
+  bottom: 57.11%;
+  left: 44.14%;
+  z-index: 8;
+}
+.groupIcon22,
+.groupIcon23,
+.groupIcon24,
+.groupIcon25,
+.groupIcon26 {
+  position: absolute;
+  height: 4.67%;
+  width: 9.09%;
+  top: 92.95%;
+  right: 51.16%;
+  bottom: 2.39%;
+  left: 39.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 3;
+}
+.groupIcon23,
+.groupIcon24,
+.groupIcon25,
+.groupIcon26 {
+  height: 0.84%;
+  width: 9.47%;
+  top: 97.55%;
+  right: 51.03%;
+  bottom: 1.61%;
+  left: 39.5%;
+  z-index: 4;
+}
+.groupIcon24,
+.groupIcon25,
+.groupIcon26 {
+  height: 0.36%;
+  width: 0.27%;
+  top: 94.04%;
+  right: 55.42%;
+  bottom: 5.6%;
+  left: 44.31%;
+}
+.groupIcon25,
+.groupIcon26 {
+  top: 94.66%;
+  right: 56%;
+  bottom: 4.98%;
+  left: 43.73%;
+}
+.groupIcon26 {
+  top: 95.27%;
+  right: 56.58%;
+  bottom: 4.37%;
+  left: 43.15%;
+}
+.groupIcon27,
+.groupIcon28,
+.groupIcon29,
+.groupIcon30,
+.groupIcon31,
+.groupIcon32 {
+  position: absolute;
+  height: 0.48%;
+  width: 0.34%;
+  top: 93.68%;
+  right: 55.55%;
+  bottom: 5.84%;
+  left: 44.11%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 5;
+}
+.groupIcon28,
+.groupIcon29,
+.groupIcon30,
+.groupIcon31,
+.groupIcon32 {
+  height: 0.45%;
+  width: 0.32%;
+  top: 94.34%;
+  right: 56.13%;
+  bottom: 5.21%;
+  left: 43.55%;
+}
+.groupIcon29,
+.groupIcon30,
+.groupIcon31,
+.groupIcon32 {
+  top: 94.96%;
+  right: 56.71%;
+  bottom: 4.59%;
+  left: 42.97%;
+}
+.groupIcon30,
+.groupIcon31,
+.groupIcon32 {
+  height: 1.84%;
+  width: 0.96%;
+  top: 91.89%;
+  right: 55.33%;
+  bottom: 6.27%;
+  left: 43.71%;
+  z-index: 6;
+}
+.groupIcon31,
+.groupIcon32 {
+  height: 1.37%;
+  width: 1.33%;
+  top: 92.65%;
+  right: 55.84%;
+  bottom: 5.98%;
+  left: 42.83%;
+  z-index: 7;
+}
+.groupIcon32 {
+  height: 4.67%;
+  width: 9.09%;
+  top: 92.95%;
+  right: 34.62%;
+  bottom: 2.39%;
+  left: 56.29%;
+  z-index: 3;
+}
+.groupIcon33,
+.groupIcon34,
+.groupIcon35,
+.groupIcon36,
+.groupIcon37 {
+  position: absolute;
+  height: 0.84%;
+  width: 9.47%;
+  top: 97.55%;
+  right: 34.49%;
+  bottom: 1.61%;
+  left: 56.05%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 4;
+}
+.groupIcon34,
+.groupIcon35,
+.groupIcon36,
+.groupIcon37 {
+  height: 0.36%;
+  width: 0.27%;
+  top: 94.04%;
+  right: 38.87%;
+  bottom: 5.6%;
+  left: 60.86%;
+}
+.groupIcon35,
+.groupIcon36,
+.groupIcon37 {
+  top: 94.66%;
+  right: 39.45%;
+  bottom: 4.98%;
+  left: 60.27%;
+}
+.groupIcon36,
+.groupIcon37 {
+  top: 95.27%;
+  right: 40.04%;
+  bottom: 4.37%;
+  left: 59.69%;
+}
+.groupIcon37 {
+  height: 0.48%;
+  width: 0.36%;
+  top: 93.68%;
+  right: 38.99%;
+  bottom: 5.84%;
+  left: 60.65%;
+  z-index: 5;
+}
+.groupIcon38,
+.groupIcon39,
+.groupIcon40,
+.groupIcon41,
+.groupIcon42,
+.groupIcon43 {
+  position: absolute;
+  height: 0.45%;
+  width: 0.32%;
+  top: 94.34%;
+  right: 39.58%;
+  bottom: 5.21%;
+  left: 60.1%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 5;
+}
+.groupIcon39,
+.groupIcon40,
+.groupIcon41,
+.groupIcon42,
+.groupIcon43 {
+  height: 0.44%;
+  top: 94.96%;
+  right: 40.17%;
+  bottom: 4.6%;
+  left: 59.51%;
+}
+.groupIcon40,
+.groupIcon41,
+.groupIcon42,
+.groupIcon43 {
+  height: 1.61%;
+  width: 0.81%;
+  top: 92.12%;
+  right: 39.25%;
+  bottom: 6.27%;
+  left: 59.94%;
+  z-index: 6;
+}
+.groupIcon41,
+.groupIcon42,
+.groupIcon43 {
+  height: 1.25%;
+  width: 1.43%;
+  top: 92.96%;
+  right: 39.3%;
+  bottom: 5.79%;
+  left: 59.28%;
+  z-index: 7;
+}
+.groupIcon42,
+.groupIcon43 {
+  height: 0.47%;
+  width: 2.6%;
+  top: 94.06%;
+  right: 35.11%;
+  bottom: 5.48%;
+  left: 62.29%;
+  z-index: 4;
+}
+.groupIcon43 {
+  height: 0.34%;
+  width: 2.42%;
+  right: 51.65%;
+  bottom: 5.6%;
+  left: 45.93%;
+}
+.groupIcon44,
+.groupIcon45,
+.groupIcon46,
+.groupIcon47,
+.groupIcon48 {
+  position: absolute;
+  height: 29.93%;
+  width: 27.92%;
+  top: 0.48%;
+  right: 28.73%;
+  bottom: 69.59%;
+  left: 43.35%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 9;
+}
+.groupIcon45,
+.groupIcon46,
+.groupIcon47,
+.groupIcon48 {
+  height: 27.9%;
+  width: 22.51%;
+  top: 2.28%;
+  right: 33.72%;
+  bottom: 69.82%;
+  left: 43.78%;
+  z-index: 10;
+}
+.groupIcon46,
+.groupIcon47,
+.groupIcon48 {
+  height: 37.7%;
+  width: 28.75%;
+  top: 15.06%;
+  right: 36.27%;
+  bottom: 47.25%;
+  left: 34.98%;
+  z-index: 11;
+}
+.groupIcon47,
+.groupIcon48 {
+  height: 30.57%;
+  width: 23.16%;
+  top: 20.55%;
+  right: 36.26%;
+  bottom: 48.88%;
+  left: 40.58%;
+  z-index: 12;
+}
+.groupIcon48 {
+  height: 3.18%;
+  width: 2.33%;
+  top: 23.72%;
+  right: 45.64%;
+  bottom: 73.1%;
+  left: 52.03%;
+  z-index: 13;
+}
+.groupIcon49,
+.groupIcon50,
+.groupIcon51,
+.groupIcon52,
+.groupIcon53,
+.groupIcon54 {
+  position: absolute;
+  height: 0.94%;
+  width: 0.5%;
+  top: 8.47%;
+  right: 50.89%;
+  bottom: 90.59%;
+  left: 48.61%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 11;
+}
+.groupIcon50,
+.groupIcon51,
+.groupIcon52,
+.groupIcon53,
+.groupIcon54 {
+  height: 0.78%;
+  width: 0.43%;
+  top: 8.44%;
+  right: 53.84%;
+  bottom: 90.78%;
+  left: 45.74%;
+}
+.groupIcon51,
+.groupIcon52,
+.groupIcon53,
+.groupIcon54 {
+  height: 0.37%;
+  width: 2.13%;
+  top: 7.75%;
+  right: 49.71%;
+  bottom: 91.87%;
+  left: 48.16%;
+}
+.groupIcon52,
+.groupIcon53,
+.groupIcon54 {
+  height: 0.27%;
+  width: 1.14%;
+  top: 7.94%;
+  right: 53.4%;
+  bottom: 91.79%;
+  left: 45.46%;
+}
+.groupIcon53,
+.groupIcon54 {
+  height: 37.81%;
+  width: 28.85%;
+  top: 15.01%;
+  right: 36.21%;
+  bottom: 47.18%;
+  left: 34.94%;
+  z-index: 14;
+}
+.groupIcon54 {
+  height: 36.71%;
+  width: 25.34%;
+  top: 15.82%;
+  right: 39.66%;
+  bottom: 47.46%;
+  left: 35%;
+  z-index: 15;
+}
+.group {
+  height: 40.056rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.home01 {
+  width: 52.625rem;
+  margin: 0 !important;
+  position: absolute;
+  top: -34.437rem;
+  right: 0.313rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-57xl-1) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pickAPlan {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  display: inline-block;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  white-space: pre-wrap;
+  text-align: left;
+  min-width: 7.625rem;
+}
+.component1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-27xl);
+  background-color: var(--color1);
+  border-radius: var(--br-25xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.component1:hover {
+  background-color: var(--color-blueviolet-100);
+}
+.howItWorks {
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  min-width: 7.875rem;
+}
+.pricingSubheadingIconImage {
+  width: 0.875rem;
+  height: 0.75rem;
+  position: relative;
+  object-fit: contain;
+}
+.pricingSubheading,
+.pricingSubheadingIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.pricingSubheading {
+  border-radius: var(--br-25xl);
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-21xl);
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.pricingContent {
+  gap: var(--gap-6xs);
+}
+.homeFeaturesContent,
+.pricingContent,
+.pricingContentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.pricingContentWrapper {
+  flex: 1;
+}
+.homeFeaturesContent {
+  flex-wrap: wrap;
+  align-self: stretch;
+  position: relative;
+}
+.chatIcon {
+  width: 4.688rem;
+  height: 4rem;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.homeFeatures {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-48xl);
+  box-sizing: border-box;
+  gap: var(--gap-30xl);
+  min-height: 15.125rem;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color);
+  font-family: var(--font-red-hat-display);
+}
+@media screen and (max-width: 800px) {
+  .pricingContent {
+    flex-wrap: wrap;
+  }
+  .homeFeatures {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .howItWorks {
+    font-size: var(--font-size-base);
+  }
+}

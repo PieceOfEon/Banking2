@@ -1,0 +1,1198 @@
+.starIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-12xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.starIconWrapper {
+  align-self: stretch;
+  width: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.143rem 0 0;
+  box-sizing: border-box;
+}
+.faq1 {
+  margin-left: -0.063rem;
+  margin: 0;
+  height: 4.5rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.fAQStar {
+  height: 4.775rem;
+  width: 4.694rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -2.978rem;
+  right: -3.631rem;
+  border-radius: var(--br-12xs);
+  object-fit: contain;
+}
+.fAQContent,
+.sideContentDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fAQContent {
+  flex-direction: row;
+  position: relative;
+}
+.sideContentDetails {
+  flex-direction: column;
+  padding: 0;
+}
+.frameParent,
+.mainContentInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.mainContentInner {
+  width: 79.313rem;
+  height: 6.644rem;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.generalInformation,
+.whatIsVeridion {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  max-width: 100%;
+  cursor: pointer;
+}
+.generalInformation {
+  margin: 0;
+  height: 2.75rem;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: var(--font-schibsted-grotesk);
+  color: var(--color1);
+  text-align: center;
+  flex-shrink: 0;
+}
+.whatIsVeridion {
+  width: 81rem;
+  line-height: 1.875rem;
+  font-weight: 600;
+}
+
+.vector24Stroke {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  /* display: none; */
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.whatIsVeridion1 {
+  width: 81rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.vector24Stroke1 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA1 {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.whatIsVeridion2 {
+  width: 81rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.vector24Stroke2 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA2 {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameChild,
+.frameDiv {
+  align-self: stretch;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameChild {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.accountManagement,
+.whatIsVeridion3 {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  max-width: 100%;
+}
+.accountManagement {
+  margin: 0;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: var(--font-schibsted-grotesk);
+  color: var(--color1);
+  flex-shrink: 0;
+}
+.whatIsVeridion3 {
+  width: 81rem;
+  line-height: 1.875rem;
+  font-weight: 600;
+}
+.vector24Stroke3 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA3 {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.whatIsVeridion4 {
+  width: 81rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.875rem;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.vector24Stroke4 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA4 {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.whatIsVeridion5 {
+  width: 81rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.875rem;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.vector24Stroke5 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA5 {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameItem,
+.frameParent3 {
+  align-self: stretch;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameParent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameItem {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bankingPlans,
+.whatIsVeridion6 {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.bankingPlans {
+  margin: 0;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: var(--font-schibsted-grotesk);
+  color: var(--color1);
+  flex-shrink: 0;
+}
+.whatIsVeridion6 {
+  width: 81rem;
+  line-height: 1.875rem;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.vector24Stroke6 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA6 {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameParent4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.whatIsVeridion7 {
+  width: 81rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.875rem;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.vector24Stroke7 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA7 {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameParent5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.whatIsVeridion8 {
+  width: 81rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.875rem;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.vector24Stroke8 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA8 {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameInner,
+.frameParent6 {
+  align-self: stretch;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameParent6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameInner {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.transactionsAndPayments,
+.whatIsVeridion9 {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  max-width: 100%;
+}
+.transactionsAndPayments {
+  margin: 0;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: var(--font-schibsted-grotesk);
+  color: var(--color1);
+  flex-shrink: 0;
+}
+.whatIsVeridion9 {
+  width: 81rem;
+  line-height: 1.875rem;
+  font-weight: 600;
+}
+.vector24Stroke9 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA9 {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameParent7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.whatIsVeridion10 {
+  width: 81rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.875rem;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.vector24Stroke10 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA10 {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameParent8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.whatIsVeridion11 {
+  width: 81rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.875rem;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.vector24Stroke11 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA11 {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameParent9,
+.lineIcon {
+  align-self: stretch;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameParent9 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.lineIcon {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.customerSupport,
+.whatIsVeridion12 {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  max-width: 100%;
+}
+.customerSupport {
+  margin: 0;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: var(--font-schibsted-grotesk);
+  color: var(--color1);
+  flex-shrink: 0;
+}
+.whatIsVeridion12 {
+  width: 81rem;
+  line-height: 1.875rem;
+  font-weight: 600;
+}
+.vector24Stroke12 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA12 {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameParent10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.whatIsVeridion13 {
+  width: 81rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.875rem;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.vector24Stroke13 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA13 {
+  width: 65.313rem;
+  height: 2rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameParent11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.whatIsVeridion14 {
+  width: 81rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.875rem;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.vector24Stroke14 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent12 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA14 {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameChild1,
+.frameParent12 {
+  align-self: stretch;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameParent12 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameChild1 {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.additionalServices,
+.whatIsVeridion15 {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.additionalServices {
+  margin: 0;
+  font-size: var(--font-size-17xl);
+  letter-spacing: 0.7px;
+  font-weight: 700;
+  font-family: var(--font-schibsted-grotesk);
+  color: var(--color1);
+  flex-shrink: 0;
+}
+.whatIsVeridion15 {
+  width: 81rem;
+  letter-spacing: 0.02em;
+  line-height: 1.875rem;
+  font-weight: 600;
+}
+.vector24Stroke15 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent13 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA15 {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameParent13 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.whatIsVeridion16 {
+  width: 81rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.875rem;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.vector24Stroke16 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent14 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA16 {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameParent14 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.whatIsVeridion17 {
+  width: 81rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.875rem;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.vector24Stroke17 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent15 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA17 {
+  width: 65.313rem;
+  height: 4rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameParent15 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  flex-shrink: 0;
+}
+.frameParent15,
+.generalInformationParent,
+.mainContent {
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.generalInformationParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-red-hat-display);
+}
+.mainContent {
+  width: 83.125rem;
+  gap: var(--gap-81xl);
+}
+.content,
+.faq,
+.headerFinalParent,
+.mainContent {
+  display: flex;
+  align-items: center;
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+.faq,
+.headerFinalParent {
+  flex-direction: column;
+  justify-content: center;
+}
+.headerFinalParent {
+  width: 120rem;
+  gap: var(--gap-90xl-7);
+  max-width: 100%;
+}
+.faq {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: auto;
+  gap: 10rem;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .whatIsVeridionParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .whatIsVeridionContainer,
+  .whatIsVeridionGroup,
+  .whatIsVeridionParent1,
+  .whatIsVeridionParent10,
+  .whatIsVeridionParent11,
+  .whatIsVeridionParent12,
+  .whatIsVeridionParent13,
+  .whatIsVeridionParent14,
+  .whatIsVeridionParent15,
+  .whatIsVeridionParent2,
+  .whatIsVeridionParent3,
+  .whatIsVeridionParent4,
+  .whatIsVeridionParent5,
+  .whatIsVeridionParent6,
+  .whatIsVeridionParent7,
+  .whatIsVeridionParent8,
+  .whatIsVeridionParent9 {
+    flex-wrap: wrap;
+  }
+  .generalInformationParent {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .headerFinalParent {
+    gap: var(--gap-36xl);
+  }
+  .faq {
+    gap: 5rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .faq1 {
+    font-size: var(--font-size-32xl);
+  }
+  .accountManagement,
+  .additionalServices,
+  .bankingPlans,
+  .customerSupport,
+  .generalInformation,
+  .transactionsAndPayments {
+    font-size: var(--font-size-10xl);
+  }
+  .generalInformationParent {
+    gap: var(--gap-base);
+  }
+  .mainContent {
+    gap: var(--gap-31xl);
+  }
+  .headerFinalParent {
+    gap: var(--gap-8xl);
+  }
+  .faq {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .faq1 {
+    font-size: var(--font-size-19xl);
+  }
+  .generalInformation {
+    font-size: var(--font-size-3xl);
+  }
+  .whatIsVeridion {
+    line-height: 1.5rem;
+  }
+  .veridionIsA,
+  .veridionIsA1,
+  .veridionIsA2,
+  .whatIsVeridion,
+  .whatIsVeridion1,
+  .whatIsVeridion2 {
+    font-size: var(--font-size-lgi);
+  }
+  .accountManagement {
+    font-size: var(--font-size-3xl);
+  }
+  .whatIsVeridion3 {
+    line-height: 1.5rem;
+  }
+  .veridionIsA3,
+  .whatIsVeridion3 {
+    font-size: var(--font-size-lgi);
+  }
+  .whatIsVeridion4 {
+    line-height: 1.5rem;
+  }
+  .veridionIsA4,
+  .whatIsVeridion4 {
+    font-size: var(--font-size-lgi);
+  }
+  .whatIsVeridion5 {
+    line-height: 1.5rem;
+  }
+  .veridionIsA5,
+  .whatIsVeridion5 {
+    font-size: var(--font-size-lgi);
+  }
+  .bankingPlans {
+    font-size: var(--font-size-3xl);
+  }
+  .whatIsVeridion6 {
+    line-height: 1.5rem;
+  }
+  .veridionIsA6,
+  .whatIsVeridion6 {
+    font-size: var(--font-size-lgi);
+  }
+  .whatIsVeridion7 {
+    line-height: 1.5rem;
+  }
+  .veridionIsA7,
+  .whatIsVeridion7 {
+    font-size: var(--font-size-lgi);
+  }
+  .whatIsVeridion8 {
+    line-height: 1.5rem;
+  }
+  .veridionIsA8,
+  .whatIsVeridion8 {
+    font-size: var(--font-size-lgi);
+  }
+  .transactionsAndPayments {
+    font-size: var(--font-size-3xl);
+  }
+  .whatIsVeridion9 {
+    line-height: 1.5rem;
+  }
+  .veridionIsA9,
+  .whatIsVeridion9 {
+    font-size: var(--font-size-lgi);
+  }
+  .whatIsVeridion10 {
+    line-height: 1.5rem;
+  }
+  .veridionIsA10,
+  .whatIsVeridion10 {
+    font-size: var(--font-size-lgi);
+  }
+  .whatIsVeridion11 {
+    line-height: 1.5rem;
+  }
+  .veridionIsA11,
+  .whatIsVeridion11 {
+    font-size: var(--font-size-lgi);
+  }
+  .customerSupport {
+    font-size: var(--font-size-3xl);
+  }
+  .whatIsVeridion12 {
+    line-height: 1.5rem;
+  }
+  .veridionIsA12,
+  .whatIsVeridion12 {
+    font-size: var(--font-size-lgi);
+  }
+  .whatIsVeridion13 {
+    line-height: 1.5rem;
+  }
+  .veridionIsA13,
+  .whatIsVeridion13 {
+    font-size: var(--font-size-lgi);
+  }
+  .whatIsVeridion14 {
+    line-height: 1.5rem;
+  }
+  .veridionIsA14,
+  .whatIsVeridion14 {
+    font-size: var(--font-size-lgi);
+  }
+  .additionalServices {
+    font-size: var(--font-size-3xl);
+  }
+  .whatIsVeridion15 {
+    line-height: 1.5rem;
+  }
+  .veridionIsA15,
+  .whatIsVeridion15 {
+    font-size: var(--font-size-lgi);
+  }
+  .whatIsVeridion16 {
+    line-height: 1.5rem;
+  }
+  .veridionIsA16,
+  .whatIsVeridion16 {
+    font-size: var(--font-size-lgi);
+  }
+  .whatIsVeridion17 {
+    line-height: 1.5rem;
+  }
+  .veridionIsA17,
+  .whatIsVeridion17 {
+    font-size: var(--font-size-lgi);
+  }
+  .mainContent {
+    gap: var(--gap-6xl);
+  }
+}

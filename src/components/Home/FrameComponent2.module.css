@@ -1,0 +1,141 @@
+.withEverySwipe {
+  width: 40.938rem;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  color: var(--color-black);
+  display: inline-block;
+  max-width: 100%;
+}
+.featureOneContainer,
+.featureOneContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.featureOneContent {
+  align-self: stretch;
+  gap: var(--gap-19xl);
+}
+.featureOneContainer {
+  width: 51.438rem;
+  padding: var(--padding-36xl) 0 0;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.groupIcon {
+  height: 11.338rem;
+  width: 16.875rem;
+  position: relative;
+  z-index: 1;
+}
+.featureOneContainerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+
+.pricingContent {
+  gap: var(--gap-6xs);
+}
+
+.pricingContent,
+.pricingContentWrapper {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
+max-width: 100%;
+}
+.pricingContentWrapper {
+flex: 1;
+margin: 2rem;
+}
+
+.pickAPlan {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  display: inline-block;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  white-space: pre-wrap;
+  text-align: left;
+  min-width: 7.625rem;
+}
+.component1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-27xl);
+  background-color: var(--color1);
+  border-radius: var(--br-25xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.component1:hover {
+  background-color: var(--color-blueviolet-100);
+}
+.pricingSubheadingIconImage {
+  width: 0.875rem;
+  height: 0.75rem;
+  position: relative;
+  object-fit: contain;
+}
+.pricingSubheading,
+.pricingSubheadingIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.pricingSubheading {
+  border-radius: var(--br-25xl);
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-21xl);
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.howItWorks {
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: 0.02em;
+  font-size: large;
+  display: inline-block;
+  min-width: 7.875rem;
+}
+
+@media screen and (max-width: 1325px) {
+  .featureOneContainerParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .featureOneContainer {
+    padding-top: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .pricingContentWrapper{
+    margin-left: -2rem;
+    transform: scale(0.9);
+  }
+}
+@media screen and (max-width: 450px) {
+  .featureOneContent {
+    gap: var(--gap-lgi);
+  }
+}

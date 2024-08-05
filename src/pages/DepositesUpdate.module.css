@@ -1,0 +1,1202 @@
+.heroImageIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -0.062rem;
+  top: 0;
+  transform: scale(1.01);
+}
+.wrapperHeroImage {
+  width: 113rem;
+  height: 18.625rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 67.625rem;
+  right: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.pickAPlan {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+}
+.component2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-21xl);
+  background-color: var(--color1);
+  border-radius: var(--br-25xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.component2:hover {
+  background-color: var(--color-blueviolet-100);
+}
+.faq {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  display: inline-block;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 2.625rem;
+}
+.shortTermFeatures {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-21xl);
+  background-color: var(--color);
+  border-radius: var(--br-25xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shortTermFeatures:hover {
+  background-color: var(--color-dimgray-300);
+}
+.shortTermFAQ,
+.shortTermFAQWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.shortTermFAQ {
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.shortTermFAQWrapper {
+  width: 76.25rem;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.groupIcon,
+.groupIcon1 {
+  position: absolute;
+  top: 6.694rem;
+  width: 2.213rem;
+  height: 1.3rem;
+}
+.groupIcon {
+  left: 8.488rem;
+}
+.groupIcon1 {
+  left: 0;
+}
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 1.238rem;
+  width: 8.225rem;
+  height: 11.519rem;
+  z-index: 1;
+}
+.vectorIcon1 {
+  position: absolute;
+  top: 0.856rem;
+  left: 1.781rem;
+  width: 7.088rem;
+  height: 3.819rem;
+  z-index: 2;
+}
+.groupIcon2,
+.groupIcon3,
+.groupIcon4 {
+  position: absolute;
+  top: 5.313rem;
+  left: 2.863rem;
+  width: 4.138rem;
+  height: 0.4rem;
+  z-index: 2;
+}
+.groupIcon3,
+.groupIcon4 {
+  top: 6.294rem;
+  width: 5.244rem;
+}
+.groupIcon4 {
+  top: 7.281rem;
+  width: 4.138rem;
+}
+.vectorIcon2 {
+  position: absolute;
+  top: 0;
+  left: 1.225rem;
+  width: 8.238rem;
+  height: 9.956rem;
+  z-index: 3;
+}
+.groupIcon5,
+.vectorIcon3,
+.vectorIcon4 {
+  position: absolute;
+  top: 7.994rem;
+  height: 5.119rem;
+}
+.vectorIcon3 {
+  left: 0;
+  width: 10.7rem;
+  z-index: 4;
+}
+.groupIcon5,
+.vectorIcon4 {
+  left: 1.694rem;
+  width: 9.006rem;
+  z-index: 5;
+}
+.groupIcon5 {
+  top: 1.413rem;
+  left: 4.575rem;
+  width: 1.531rem;
+  height: 2.719rem;
+  z-index: 4;
+}
+.cancellationPolicyDetails {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.group,
+.savingsAccountsContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.group {
+  height: 13.113rem;
+  width: 10.7rem;
+  justify-content: flex-start;
+  position: relative;
+}
+.savingsAccountsContent {
+  align-self: stretch;
+  justify-content: center;
+}
+.savingsAccounts {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.earnInterestWith,
+.toYourFunds {
+  margin: 0;
+}
+.earnInterestWithContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.savingsAccountsDescription {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+  min-width: 13.875rem;
+  max-width: 100%;
+}
+.savingsAccountsRatingChild {
+  position: absolute;
+  top: 2.625rem;
+  left: 1.875rem;
+  border-radius: var(--br-12xs);
+  width: 5.625rem;
+  height: 6.313rem;
+}
+.savingsAccountsRatingItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-12xs);
+  width: 3.75rem;
+  height: 4.125rem;
+  z-index: 1;
+}
+.savingsAccountsRating {
+  height: 8.938rem;
+  width: 7.5rem;
+  position: relative;
+  min-width: 7.5rem;
+}
+.savingsAccountsFeatures {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  max-width: 100%;
+  margin-top: -0.688rem;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
+}
+.accountsComparison,
+.savingsAccountsDetails {
+  width: 31.688rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 112%;
+  flex-shrink: 0;
+}
+.savingsAccountsDetails {
+  height: 26.688rem;
+  width: 32.5rem;
+  box-shadow: 0 0 28px #d4c4f6;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-white);
+  overflow-y: auto;
+  padding: 2.006rem var(--padding-13xl) 11.568rem;
+  box-sizing: border-box;
+  gap: 2.131rem;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameParent,
+.shortTermDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-173xl);
+  max-width: 100%;
+}
+.frameParent {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.shortTermPlan {
+  flex-direction: row;
+  padding: 0 var(--padding-24xl);
+  box-sizing: border-box;
+}
+.shortTermPlan,
+.shortTermSubtitle,
+.shortTermTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.shortTermSubtitle {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-14xl);
+}
+.shortTermTitle {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-13xl) var(--padding-7xs);
+  box-sizing: border-box;
+}
+.deposits {
+  color: var(--color);
+}
+.longTermDeposits {
+  margin: 0;
+  height: 4.938rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.longTermTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.planningForThe {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  color: var(--color-black);
+  text-align: center;
+}
+.longTermContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.pickAPlan1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+}
+.component21 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-21xl);
+  background-color: var(--color1);
+  border-radius: var(--br-25xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.component21:hover {
+  background-color: var(--color-blueviolet-100);
+}
+.faq1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  display: inline-block;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 2.625rem;
+}
+.component2Parent,
+.faqWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.faqWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-21xl);
+  background-color: var(--color);
+  border-radius: var(--br-25xl);
+}
+.faqWrapper:hover {
+  background-color: var(--color-dimgray-300);
+}
+.component2Parent {
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.longTermContentParent,
+.longTermPlan {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.longTermPlan {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.longTermContentParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+  font-size: var(--font-size-45xl);
+  color: var(--color1);
+  font-family: var(--font-schibsted-grotesk);
+}
+.documentIcon {
+  height: 15rem;
+  width: 15rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.certificatesIcon {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-5xs);
+}
+.certificatesCds,
+.fixedInterestRates {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.certificatesCds {
+  margin: 0;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+.fixedInterestRates {
+  align-self: stretch;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
+}
+.certificatesDescription {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 13.875rem;
+  max-width: 100%;
+}
+.retirementAccountsFeaturesChild {
+  position: absolute;
+  top: 2.625rem;
+  left: 1.875rem;
+  border-radius: var(--br-12xs);
+  width: 5.625rem;
+  height: 6.313rem;
+}
+.retirementAccountsFeaturesItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-12xs);
+  width: 3.75rem;
+  height: 4.125rem;
+  z-index: 1;
+}
+.retirementAccountsFeatures {
+  align-self: stretch;
+  height: 8.938rem;
+  position: relative;
+}
+.retirementAccountsDetails {
+  width: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+  min-width: 7.5rem;
+}
+.certificatesDetails,
+.certificatesFeatures {
+  width: 31.688rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-26xl);
+  flex-shrink: 0;
+  max-width: 112%;
+}
+.certificatesDetails {
+  height: 26.688rem;
+  width: 32.5rem;
+  box-shadow: 0 0 28px #d4c4f6;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-13xl) var(--padding-145xl);
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  max-width: 100%;
+  z-index: 1;
+}
+.wrapperVector12Child {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -0.062rem;
+  top: 0;
+  transform: scale(1.01);
+}
+.wrapperVector12 {
+  height: 18.625rem;
+  width: 113rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 2.563rem;
+  left: -62.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.pensionIcon {
+  height: 15rem;
+  width: 15rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pensionWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-3xs) 0 0;
+}
+.retirementAccIras {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.taxAdvantagedSavingsFor,
+.yourRetirement {
+  margin: 0;
+}
+.taxAdvantagedSavingsForContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.retirementAccountsRatingChild {
+  position: absolute;
+  top: 2.625rem;
+  left: 1.875rem;
+  border-radius: var(--br-12xs);
+  width: 5.625rem;
+  height: 6.313rem;
+}
+.retirementAccountsRatingItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-12xs);
+  width: 3.75rem;
+  height: 4.125rem;
+  z-index: 1;
+}
+.retirementAccountsRating {
+  height: 8.938rem;
+  width: 7.5rem;
+  position: absolute;
+  margin: 0 !important;
+  right: -2.687rem;
+  bottom: -4.312rem;
+}
+.retirementAccIrasParent,
+.retirementAccountsDescriptio {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.retirementAccountsDescriptio {
+  flex-direction: row;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
+}
+.retirementAccIrasParent {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.certificatesDetails1,
+.frameGroup,
+.investmentOptionsDetails {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  box-shadow: 0 0 28px #d4c4f6;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-26xl)
+    var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.certificatesDetails1,
+.investmentOptionsDetails {
+  flex-direction: row;
+}
+.certificatesDetails1 {
+  position: relative;
+  min-width: 21.125rem;
+}
+.investmentOptionsDetails {
+  flex-wrap: wrap;
+  gap: var(--gap-173xl);
+}
+.investmentOptions {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-36xl) 0 var(--padding-30xl);
+  box-sizing: border-box;
+}
+.investmentOptions,
+.shortTermContent,
+.shortTermContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.shortTermContent {
+  width: 83.5rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-51xl);
+}
+.shortTermContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-7xl);
+  box-sizing: border-box;
+}
+.heroContent {
+  width: 100rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-99xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-red-hat-display);
+}
+.heroContentWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-18xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.backgroundIcon {
+  position: absolute;
+  top: 0;
+  left: -13.312rem;
+  width: 155.044rem;
+  height: 86.675rem;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(33px);
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frameItem {
+  position: absolute;
+  height: 52.46%;
+  width: 50.79%;
+  top: 24.59%;
+  right: 23.81%;
+  bottom: 22.95%;
+  left: 25.4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.ourSocialMedia {
+  position: absolute;
+  top: 0.25rem;
+  left: 67.5rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 18.613rem;
+  height: 1.688rem;
+  z-index: 1;
+}
+.component8Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7.5rem;
+  height: 6.225rem;
+  z-index: 1;
+}
+.socialMediaTitle {
+  position: absolute;
+  top: -3.875rem;
+  left: -67.5rem;
+  width: 86.113rem;
+  height: 6.225rem;
+}
+.footerContentChild,
+.rectangleParent {
+  position: absolute;
+  top: 21.981rem;
+  width: 3.938rem;
+  height: 3.813rem;
+  z-index: 1;
+}
+.rectangleParent {
+  left: 77.438rem;
+  backdrop-filter: blur(33px);
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+}
+.footerContentChild {
+  left: 83.125rem;
+  object-fit: contain;
+}
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(33px);
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.rectangleGroup,
+.vectorIcon5 {
+  position: absolute;
+  top: 1.125rem;
+  left: 1.188rem;
+  width: 1.563rem;
+  height: 1.563rem;
+  z-index: 1;
+}
+.rectangleGroup {
+  top: 21.981rem;
+  left: 88.813rem;
+  backdrop-filter: blur(33px);
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 3.938rem;
+  height: 3.813rem;
+}
+.footerContent {
+  height: 40.606rem;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -11.981rem;
+  right: 0;
+  left: 0;
+}
+.aboutTheBank {
+  align-self: stretch;
+  color: var(--color);
+  z-index: 1;
+}
+.aboutTheBank,
+.contactInformation {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.component9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation1 {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 6.125rem;
+}
+.component10 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation2 {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 5.875rem;
+}
+.component11 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation3 {
+  height: 1.625rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.aboutBank,
+.component12 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component12 {
+  flex-direction: row;
+  z-index: 1;
+}
+.aboutBank {
+  width: 15.125rem;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.contactInformation4,
+.support {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.support {
+  width: 15.125rem;
+  color: var(--color);
+  z-index: 1;
+}
+.contactInformation4 {
+  min-width: 2.5rem;
+}
+.component91 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation5 {
+  height: 1.625rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.component101 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation6 {
+  height: 1.625rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.component111 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation7 {
+  align-self: stretch;
+  width: 0;
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.component121 {
+  width: 0;
+  height: 1.625rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.supportContact,
+.supportLinks {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.supportContact {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.supportLinks {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: -14.125rem;
+}
+.depositesUpdate,
+.footer,
+.footerLinks {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerLinks {
+  width: 41rem;
+  flex-direction: column;
+  max-width: 100%;
+  color: var(--color-dimgray-200);
+}
+.depositesUpdate,
+.footer {
+  position: relative;
+  overflow: hidden;
+}
+.footer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-90xl) var(--padding-417xl);
+  box-sizing: border-box;
+  min-height: 28.625rem;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color);
+  font-family: var(--font-red-hat-display);
+}
+.depositesUpdate {
+  width: 100%;
+  background-color: var(--color-white);
+  flex-direction: column;
+  gap: 5.187rem;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1325px) {
+  .shortTermDetails {
+    flex-wrap: wrap;
+    gap: var(--gap-77xl);
+  }
+  .shortTermPlan {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .investmentOptionsDetails {
+    gap: var(--gap-77xl);
+  }
+  .footer,
+  .investmentOptions {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    padding-left: var(--padding-199xl);
+    padding-right: var(--padding-199xl);
+  }
+}
+@media screen and (max-width: 1125px) {
+  .depositesUpdate {
+    gap: var(--gap-22xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .shortTermFAQ {
+    flex-wrap: wrap;
+  }
+  .savingsAccounts {
+    font-size: var(--font-size-7xl);
+  }
+  .savingsAccountsRating {
+    flex: 1;
+  }
+  .savingsAccountsFeatures {
+    flex-wrap: wrap;
+    gap: var(--gap-3xl);
+  }
+  .savingsAccountsDetails {
+    height: auto;
+    gap: var(--gap-mid);
+    padding-top: var(--padding-2xl);
+    padding-bottom: 7.5rem;
+    box-sizing: border-box;
+  }
+  .shortTermDetails {
+    gap: var(--gap-29xl);
+  }
+  .frameParent {
+    gap: var(--gap-5xl);
+  }
+  .shortTermSubtitle {
+    gap: var(--gap-base);
+  }
+  .longTermDeposits {
+    font-size: var(--font-size-32xl);
+  }
+  .component2Parent {
+    flex-wrap: wrap;
+  }
+  .longTermContentParent {
+    gap: var(--gap-base);
+  }
+  .certificatesCds {
+    font-size: var(--font-size-7xl);
+  }
+  .retirementAccountsDetails {
+    flex: 1;
+  }
+  .certificatesFeatures {
+    flex-wrap: wrap;
+    gap: var(--gap-3xl);
+  }
+  .certificatesDetails {
+    height: auto;
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-88xl);
+    box-sizing: border-box;
+  }
+  .retirementAccIras {
+    font-size: var(--font-size-7xl);
+  }
+  .certificatesDetails1 {
+    min-width: 100%;
+  }
+  .investmentOptionsDetails {
+    gap: var(--gap-29xl);
+  }
+  .shortTermContent {
+    gap: var(--gap-16xl);
+  }
+  .heroContent {
+    gap: 3.688rem;
+  }
+  .footer {
+    padding-left: var(--padding-90xl);
+    padding-right: var(--padding-90xl);
+    box-sizing: border-box;
+  }
+  .depositesUpdate {
+    gap: var(--gap-2xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .faq {
+    font-size: var(--font-size-base);
+  }
+  .savingsAccounts {
+    font-size: var(--font-size-lgi);
+  }
+  .earnInterestWithContainer {
+    font-size: var(--font-size-base);
+  }
+  .shortTermDetails {
+    gap: var(--gap-5xl);
+  }
+  .longTermDeposits {
+    font-size: var(--font-size-19xl);
+  }
+  .faq1 {
+    font-size: var(--font-size-base);
+  }
+  .certificatesCds {
+    font-size: var(--font-size-lgi);
+  }
+  .fixedInterestRates {
+    font-size: var(--font-size-base);
+  }
+  .retirementAccIras {
+    font-size: var(--font-size-lgi);
+  }
+  .taxAdvantagedSavingsForContainer {
+    font-size: var(--font-size-base);
+  }
+  .frameGroup {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .investmentOptionsDetails {
+    gap: var(--gap-5xl);
+  }
+  .shortTermContent {
+    gap: var(--gap-mid);
+  }
+  .heroContent {
+    gap: 1.813rem;
+  }
+  .aboutTheBank,
+  .contactInformation,
+  .contactInformation1,
+  .contactInformation2,
+  .contactInformation3,
+  .contactInformation4,
+  .contactInformation5,
+  .contactInformation6,
+  .contactInformation7,
+  .ourSocialMedia,
+  .support {
+    font-size: var(--font-size-base);
+  }
+  .footer {
+    padding: var(--padding-52xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

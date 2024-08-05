@@ -1,0 +1,147 @@
+.progressTrackingPlanListSeChild {
+  width: 48.688rem;
+  height: 19.188rem;
+  position: relative;
+  box-shadow: var(--effect);
+  border-radius: var(--br-7xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.progressTrackingPlanIconsS {
+  width: 1.719rem;
+  height: 1.25rem;
+  position: absolute;
+  margin: 0 !important;
+  right: 1.656rem;
+  bottom: 1.25rem;
+  z-index: 1;
+}
+.progressTrackingPlanFeature1 {
+  height: 4.063rem;
+  width: 3.938rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -1.375rem;
+  left: -1.875rem;
+  border-radius: var(--br-12xs);
+  z-index: 1;
+}
+.ironPlan {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 2;
+}
+.progressTrackingPlanFeature {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  text-align: center;
+}
+.month,
+.monthStarIcon {
+  position: relative;
+  z-index: 1;
+}
+.month {
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.monthStarIcon {
+  height: 2.125rem;
+  width: 2.125rem;
+  border-radius: var(--br-12xs);
+  min-height: 2.125rem;
+}
+.progressTrackingPlanPriceV,
+.progressTrackingPlanPrices {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.progressTrackingPlanPriceV {
+  gap: var(--gap-7xs);
+}
+.progressTrackingPlanPrices {
+  padding: 0 var(--padding-10xs);
+  font-size: var(--font-size-7xl);
+}
+.theStandardPlan {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.75rem;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.progressTrackingPlanDetails,
+.progressTrackingPlanListSe,
+.ultraDescription {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ultraDescription {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-red-hat-display);
+}
+.progressTrackingPlanDetails,
+.progressTrackingPlanListSe {
+  flex-direction: column;
+}
+.progressTrackingPlanDetails {
+  align-self: stretch;
+  gap: var(--gap-4xs-5);
+}
+.progressTrackingPlanListSe {
+  flex: 1;
+  box-shadow: var(--effect);
+  border-radius: var(--br-7xl);
+  background-color: var(--color-white);
+  padding: var(--padding-17xl) var(--padding-19xl) var(--padding-67xl);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 31.75rem;
+  min-height: 19.188rem;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+@media screen and (max-width: 1325px) {
+  .progressTrackingPlanListSe {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ironPlan {
+    font-size: var(--font-size-13xl);
+  }
+  .progressTrackingPlanListSe {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ironPlan {
+    font-size: var(--font-size-5xl);
+  }
+  .month {
+    font-size: var(--font-size-2xl);
+  }
+}

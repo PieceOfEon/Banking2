@@ -1,0 +1,73 @@
+.getStarted{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+.groupIcon {
+    height: 11.338rem;
+    width: 16.875rem;
+    
+    z-index: 1;
+  }
+.unlockLifesJoy,
+.withYour {
+    font-size: 5rem;
+    font-weight: 700;
+  margin: 0;
+}
+.unlockLifesJoyContainer {
+  font-size: 3rem;
+  font-family: inherit;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.featureOneCardChild {
+  width: 20.431rem;
+  height: 8.006rem;
+  object-fit: cover;
+  z-index: 2;
+}
+.card {
+  left: 2.688rem;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 9.125rem;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 3;
+  color: black;
+}
+.featureOneCard {
+  color: var(--color-gray-100);
+}
+.unlockLifesJoyWithYourParent {
+  align-self: stretch;
+  height: 17.5rem;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+
+@media screen and (max-width: 1500px){
+    .getStarted{
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .getStarted{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 800px){
+  .getStarted{
+      justify-content: center;
+      transform: scale(0.8);
+  }
+}

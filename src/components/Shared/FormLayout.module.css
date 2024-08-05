@@ -1,0 +1,67 @@
+.fullName {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 79px;
+  z-index: 1;
+}
+.fullNameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.enterYourFull {
+  width: 156px;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-red-hat-display);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 21px;
+  position: relative;
+  letter-spacing: 0.02em;
+  color: var(--color-thistle);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.enterYourFullNameWrapper,
+.formLayout,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.enterYourFullNameWrapper {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  border: 1.5px solid var(--color-thistle);
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-9xl);
+  z-index: 1;
+}
+.formLayout,
+.frameParent {
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.formLayout {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) var(--padding-xs-5);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-red-hat-display);
+}

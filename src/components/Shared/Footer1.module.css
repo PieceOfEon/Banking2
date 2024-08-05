@@ -1,0 +1,341 @@
+.backgroundIcon {
+  position: absolute;
+  top: 0;
+  left: -13.312rem;
+  width: 155.044rem;
+  height: 86.675rem;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(33px);
+  -webkit-backdrop-filter: blur(33px);
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frameItem {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-left: -10rem;
+}
+.ourSocialMedia {
+  position: absolute;
+  top: 0.25rem;
+  left: 67.5rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 18.613rem;
+  height: 1.688rem;
+  z-index: 1;
+  margin-left: -10rem;
+}
+.component8Icon,
+.socialMedia {
+  position: absolute;
+  height: 6.225rem;
+}
+.component8Icon {
+  margin-left: -4rem;
+  top: 0;
+  left: 0;
+  width: 7.5rem;
+  z-index: 1;
+}
+.socialMedia {
+  top: -3.875rem;
+  left: -67.5rem;
+  width: 86.113rem;
+}
+.footerContentChild,
+.rectangleParent {
+  position: absolute;
+  top: 21.981rem;
+  width: 3.938rem;
+  height: 3.813rem;
+  z-index: 1;
+}
+.rectangleParent {
+  left: 77.438rem;
+}
+.footerContentChild {
+  left: 83.125rem;
+  object-fit: contain;
+  margin-left: -10rem;
+}
+
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(33px);
+  -webkit-backdrop-filter: blur(33px);
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.rectangleGroup,
+.vectorIcon {
+  position: absolute;
+  top: 1.125rem;
+  left: 1.188rem;
+  width: 1.563rem;
+  height: 1.563rem;
+  z-index: 1;
+}
+.rectangleGroup {
+  top: 21.981rem;
+  left: 88.813rem;
+  backdrop-filter: blur(33px);
+  -webkit-backdrop-filter: blur(33px);
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 3.938rem;
+  height: 3.813rem;
+  margin-left: -10rem;
+}
+.footerContent {
+  height: 40.606rem;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -11.981rem;
+  right: 0;
+  left: 0;
+}
+.aboutTheBank {
+  align-self: stretch;
+  color: var(--color);
+  z-index: 1;
+}
+.aboutTheBank,
+.contactInformation {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.component9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation1 {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 6.125rem;
+}
+.component10 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation2 {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 5.875rem;
+}
+.component11 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation3 {
+  height: 1.625rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.component12,
+.contactDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component12 {
+  flex-direction: row;
+  z-index: 1;
+}
+.contactDetails {
+  width: 15.125rem;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  margin-left: -7rem;
+}
+.contactInformation4,
+.support {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.support {
+  width: 15.125rem;
+  color: var(--color);
+  z-index: 1;
+}
+.contactInformation4 {
+  min-width: 2.5rem;
+}
+.component91 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation5 {
+  height: 1.625rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.component101 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation6 {
+  height: 1.625rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.component111 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation7 {
+  align-self: stretch;
+  width: 0;
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.component121 {
+  width: 0;
+  height: 1.625rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.supportDetails,
+.supportDetailsWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.supportDetails {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  margin-right: 7rem;
+}
+.supportDetailsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: -14.125rem;
+}
+.contactDetailsParent,
+.footer {
+  width: 41rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  color: var(--color-dimgray-200);
+}
+.footer {
+  width: 120rem;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-90xl) var(--padding-417xl);
+  box-sizing: border-box;
+  position: relative;
+  min-height: 28.625rem;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color);
+  font-family: var(--font-red-hat-display);
+}
+.footer2 {
+  width: 100%;
+  height: 75rem;
+  overflow: hidden;
+}
+
+.footerImageContainer {
+  transform: scaleY(0.38) scaleX(1.1);
+  width: 100%;
+  height: 40rem;
+  
+}
+
+@media screen and (max-width: 1350px) {
+  .footer {
+    padding-left: var(--padding-199xl);
+    padding-right: var(--padding-199xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    padding-left: var(--padding-90xl);
+    padding-right: var(--padding-90xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutTheBank,
+  .contactInformation,
+  .contactInformation1,
+  .contactInformation2,
+  .contactInformation3,
+  .contactInformation4,
+  .contactInformation5,
+  .contactInformation6,
+  .contactInformation7,
+  .ourSocialMedia,
+  .support {
+    font-size: var(--font-size-base);
+  }
+  .footer {
+    padding: var(--padding-52xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

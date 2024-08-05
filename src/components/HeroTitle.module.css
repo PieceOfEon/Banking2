@@ -1,0 +1,132 @@
+.secureYourFunds {
+  width: 53.75rem;
+  position: absolute;
+  margin: 0 !important;
+  right: -21.562rem;
+  bottom: 6.25rem;
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  display: inline-block;
+  z-index: 1;
+}
+.deposits,
+.pickAPlan {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.deposits {
+  margin: 0;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.pickAPlan {
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 7.438rem;
+}
+.component1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-21xl);
+  background-color: var(--color1);
+  border-radius: var(--br-25xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.component1:hover {
+  background-color: var(--color-blueviolet-100);
+}
+.depositsTitle {
+  flex-direction: column;
+  gap: var(--gap-127xl);
+  flex-shrink: 0;
+  font-size: var(--font-size-77xl);
+  color: var(--color);
+}
+.depositsTitle,
+.heroDescription,
+.heroSubtitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.heroDescription {
+  flex-direction: row;
+  position: relative;
+}
+.heroSubtitle {
+  flex-direction: column;
+  padding: var(--padding-mid) 0 0;
+  box-sizing: border-box;
+  min-width: 32.188rem;
+}
+.depositsIcon {
+  margin-left: -0.25rem;
+  align-self: stretch;
+  height: 23.5rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.depositsWrapper,
+.heroTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.depositsWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 44.063rem;
+}
+.heroTitle {
+  align-self: stretch;
+  flex-direction: row;
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-schibsted-grotesk);
+}
+@media screen and (max-width: 1325px) {
+  .heroSubtitle {
+    flex: 1;
+  }
+  .heroTitle {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .deposits {
+    font-size: var(--font-size-29xl);
+  }
+  .depositsTitle {
+    gap: var(--gap-54xl);
+  }
+  .depositsWrapper,
+  .heroSubtitle {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .deposits {
+    font-size: var(--font-size-10xl);
+  }
+  .depositsTitle {
+    gap: var(--gap-17xl);
+  }
+}

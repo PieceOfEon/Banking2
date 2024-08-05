@@ -1,0 +1,726 @@
+.features,
+.mutualFunds {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mutualFunds {
+  width: 25.625rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.features {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0 var(--padding-29xl);
+  gap: var(--gap-xl);
+}
+.adviceAndConsultations {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.adviceAndConsultationsWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-8xl) 0 var(--padding-xl);
+}
+.lookingForExpert {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  color: var(--color-black);
+  text-align: center;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.pickAPlan {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+}
+.component3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-21xl);
+  background-color: var(--color1);
+  border-radius: var(--br-25xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.component3:hover {
+  background-color: var(--color-blueviolet-100);
+}
+.faq {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  min-width: 2.625rem;
+}
+.faqWrapper {
+  border-radius: var(--br-25xl);
+  background-color: var(--color);
+  padding: var(--padding-lg) var(--padding-21xl);
+}
+.component3Parent,
+.faqWrapper,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  cursor: pointer;
+}
+.component3Parent {
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-red-hat-display);
+}
+.frameParent,
+.frameWrapper,
+.heroColumns {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 83.125rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+}
+.heroColumns {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.flowerFeatureIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -0.062rem;
+  top: 0;
+  transform: scale(1.01);
+}
+.wrapperFlowerFeature {
+  height: 18.625rem;
+  width: 113rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 2.563rem;
+  right: -81.187rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.planningItems {
+  width: 25.313rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.groupIcon {
+  position: absolute;
+  top: 2.75rem;
+  left: 9.794rem;
+  width: 1.975rem;
+  height: 9.3rem;
+}
+.groupIcon1,
+.groupIcon2,
+.groupIcon3 {
+  position: absolute;
+  top: 5.994rem;
+  left: 6.775rem;
+  width: 1.975rem;
+  height: 6.05rem;
+}
+.groupIcon2,
+.groupIcon3 {
+  top: 5.363rem;
+  left: 3.763rem;
+  height: 6.688rem;
+}
+.groupIcon3 {
+  top: 7.25rem;
+  left: 0.75rem;
+  height: 4.8rem;
+}
+.groupIcon4,
+.vectorIcon {
+  position: absolute;
+  z-index: 1;
+}
+.groupIcon4 {
+  top: 11.881rem;
+  left: 0;
+  width: 12.519rem;
+  height: 0.331rem;
+}
+.vectorIcon {
+  top: 0;
+  left: 0.256rem;
+  width: 11.325rem;
+  height: 6.163rem;
+}
+.flowerElements {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.group,
+.groupWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.group {
+  height: 12.213rem;
+  flex: 1;
+  position: relative;
+}
+.groupWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-53xl) 0 4.312rem;
+}
+.comprehensiveAnalysisAnd,
+.financePlanning {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.financePlanning {
+  margin: 0;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.comprehensiveAnalysisAnd {
+  align-self: stretch;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
+}
+.financePlanningParent,
+.planningItems1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.financePlanningParent {
+  align-self: stretch;
+  gap: var(--gap-xs);
+}
+.planningItems1 {
+  width: 25.313rem;
+  box-shadow: 0 0 28px #d4c4f6;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 2.893rem var(--padding-12xl) var(--padding-26xl) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: 2.143rem;
+  z-index: 1;
+}
+.planning {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-red-hat-display);
+}
+.headerFinalParent,
+.hero,
+.heroContent,
+.planning {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.heroContent {
+  width: 100rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-51xl);
+}
+.headerFinalParent,
+.hero {
+  align-self: stretch;
+}
+.hero {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+.headerFinalParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-36xl);
+}
+.backgroundIcon {
+  position: absolute;
+  top: 0;
+  left: -13.312rem;
+  width: 155.044rem;
+  height: 86.675rem;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(33px);
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frameItem {
+  position: absolute;
+  height: 52.46%;
+  width: 50.79%;
+  top: 24.59%;
+  right: 23.81%;
+  bottom: 22.95%;
+  left: 25.4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.ourSocialMedia {
+  position: absolute;
+  top: 0.25rem;
+  left: 67.5rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 18.613rem;
+  height: 1.688rem;
+  z-index: 1;
+}
+.component8Icon,
+.socialMedia {
+  position: absolute;
+  height: 6.225rem;
+}
+.component8Icon {
+  top: 0;
+  left: 0;
+  width: 7.5rem;
+  z-index: 1;
+}
+.socialMedia {
+  top: -3.875rem;
+  left: -67.5rem;
+  width: 86.113rem;
+}
+.footerContentChild,
+.rectangleParent {
+  position: absolute;
+  top: 21.981rem;
+  width: 3.938rem;
+  height: 3.813rem;
+  z-index: 1;
+}
+.rectangleParent {
+  left: 77.438rem;
+  backdrop-filter: blur(33px);
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+}
+.footerContentChild {
+  left: 83.125rem;
+  object-fit: contain;
+}
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(33px);
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.rectangleGroup,
+.vectorIcon1 {
+  position: absolute;
+  top: 1.125rem;
+  left: 1.188rem;
+  width: 1.563rem;
+  height: 1.563rem;
+  z-index: 1;
+}
+.rectangleGroup {
+  top: 21.981rem;
+  left: 88.813rem;
+  backdrop-filter: blur(33px);
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 3.938rem;
+  height: 3.813rem;
+}
+.footerContent {
+  height: 40.606rem;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -11.981rem;
+  right: 0;
+  left: 0;
+}
+.aboutTheBank {
+  align-self: stretch;
+  color: var(--color);
+  z-index: 1;
+}
+.aboutTheBank,
+.contactInformation {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.component9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation1 {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 6.125rem;
+}
+.component10 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation2 {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 5.875rem;
+}
+.component11 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation3 {
+  text-decoration: none;
+  height: 1.625rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: inherit;
+  display: inline-block;
+}
+.component12,
+.contactContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component12 {
+  flex-direction: row;
+  z-index: 1;
+}
+.contactContainer {
+  width: 15.125rem;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.contactInformation4,
+.support {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.support {
+  width: 15.125rem;
+  color: var(--color);
+  z-index: 1;
+}
+.contactInformation4 {
+  min-width: 2.5rem;
+}
+.component91 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation5 {
+  height: 1.625rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.component101 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation6 {
+  height: 1.625rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.component111 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation7 {
+  align-self: stretch;
+  width: 0;
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.component121 {
+  width: 0;
+  height: 1.625rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.supportContainer,
+.supportInfo {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.supportContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.supportInfo {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: -14.125rem;
+}
+.contactInfo,
+.footer,
+.investmentsUpdate {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactInfo {
+  width: 41rem;
+  flex-direction: column;
+  max-width: 100%;
+  color: var(--color-dimgray-200);
+}
+.footer,
+.investmentsUpdate {
+  position: relative;
+  overflow: hidden;
+}
+.footer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-90xl) var(--padding-417xl);
+  box-sizing: border-box;
+  min-height: 28.625rem;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color);
+  font-family: var(--font-red-hat-display);
+}
+.investmentsUpdate {
+  width: 100%;
+  background-color: var(--color-white);
+  flex-direction: column;
+  gap: var(--gap-101xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1325px) {
+  .features,
+  .planning {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer {
+    padding-left: var(--padding-199xl);
+    padding-right: var(--padding-199xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .investmentsUpdate {
+    gap: var(--gap-41xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .features {
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .adviceAndConsultations {
+    font-size: var(--font-size-32xl);
+  }
+  .component3Parent {
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    gap: var(--gap-base);
+  }
+  .financePlanning {
+    font-size: var(--font-size-7xl);
+  }
+  .heroContent {
+    gap: var(--gap-16xl);
+  }
+  .headerFinalParent {
+    gap: var(--gap-8xl);
+  }
+  .footer {
+    padding-left: var(--padding-90xl);
+    padding-right: var(--padding-90xl);
+    box-sizing: border-box;
+  }
+  .investmentsUpdate {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .adviceAndConsultations {
+    font-size: var(--font-size-19xl);
+  }
+  .faq {
+    font-size: var(--font-size-base);
+  }
+  .groupWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .financePlanning {
+    font-size: var(--font-size-lgi);
+  }
+  .comprehensiveAnalysisAnd {
+    font-size: var(--font-size-base);
+  }
+  .planningItems1 {
+    padding-top: var(--padding-11xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .heroContent,
+  .planningItems1 {
+    gap: var(--gap-mid);
+  }
+  .aboutTheBank,
+  .contactInformation,
+  .contactInformation1,
+  .contactInformation2,
+  .contactInformation3,
+  .contactInformation4,
+  .contactInformation5,
+  .contactInformation6,
+  .contactInformation7,
+  .ourSocialMedia,
+  .support {
+    font-size: var(--font-size-base);
+  }
+  .footer {
+    padding: var(--padding-52xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

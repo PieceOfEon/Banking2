@@ -1,0 +1,144 @@
+.progressTrackingPlanListSeChild {
+  width: 48.813rem;
+  height: 19.188rem;
+  position: relative;
+  box-shadow: var(--effect);
+  border-radius: var(--br-7xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.frameChild,
+.vectorIcon {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 1;
+}
+.vectorIcon {
+  width: 1.725rem;
+  height: 1.25rem;
+  right: 1.656rem;
+  bottom: 1.25rem;
+}
+.frameChild {
+  height: 4.063rem;
+  width: 3.938rem;
+  top: -1.375rem;
+  left: -2.062rem;
+  border-radius: var(--br-12xs);
+}
+.ultraPlan {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  z-index: 2;
+}
+.starParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  text-align: center;
+}
+.month {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  z-index: 1;
+}
+.monthWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.ultraStarIcon {
+  height: 2.125rem;
+  width: 2.125rem;
+  position: relative;
+  border-radius: var(--br-12xs);
+  min-height: 2.125rem;
+  z-index: 1;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-7xl);
+}
+.theUltraPlan {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.75rem;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameParent,
+.progressTrackingPlanListSe,
+.theUltraPlanIsOurTopTierWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.theUltraPlanIsOurTopTierWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-red-hat-display);
+}
+.frameParent,
+.progressTrackingPlanListSe {
+  flex-direction: column;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-4xs-5);
+}
+.progressTrackingPlanListSe {
+  flex: 0.9915;
+  box-shadow: var(--effect);
+  border-radius: var(--br-7xl);
+  background-color: var(--color-white);
+  padding: var(--padding-17xl) var(--padding-22xl) var(--padding-67xl);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 31.75rem;
+  min-height: 19.188rem;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+@media screen and (max-width: 1325px) {
+  .progressTrackingPlanListSe {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ultraPlan {
+    font-size: var(--font-size-13xl);
+  }
+  .progressTrackingPlanListSe {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ultraPlan {
+    font-size: var(--font-size-5xl);
+  }
+  .month {
+    font-size: var(--font-size-2xl);
+  }
+}
