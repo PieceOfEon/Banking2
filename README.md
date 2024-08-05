@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   # dis1st
 
@@ -8,3 +9,6 @@
   2) In the terminal, run `npm install`
   3) Run `npm start` to view project in browser
   
+=======
+# Banking
+>>>>>>> 09cc37128652f499cf2b63add60cb67c4160921c
